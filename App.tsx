@@ -82,7 +82,7 @@ export default function App() {
     deleteDoc(myDoc)
       .then(() => {
         // MARK: Success
-        alert("Deleted Successfully");
+        alert("Deleted Successfully!");
       })
       .catch((error) => {
         // MARK: Failure
